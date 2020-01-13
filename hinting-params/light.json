@@ -1,0 +1,11 @@
+{
+	"fontFormat": "@chlorophytum/font-format-otd",
+	"finalFormat": "@chlorophytum/final-hint-format-hltt",
+	"hintStoreProvider": "@chlorophytum/hint-store-provider-file",
+	"hintPasses": [
+		{
+			"plugin": "@chlorophytum/hm-ideograph",
+			"options": { "CANONICAL_STEM_WIDTH": 0.04 }
+		}
+	]
+}
